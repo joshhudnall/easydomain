@@ -1,6 +1,6 @@
 {
     "name": "joshhudnall/easy-domain",
-    "version": "0",
+    "version": "1.0.0",
     "description": "A CLI command to easily create domains and stubs.",
     "type": "library",
     "license": "MIT",
