@@ -1,0 +1,32 @@
+<?php
+
+namespace {namespace};
+
+use App\Domain\Shared\ValueObjects\BaseValueObject;
+
+class {domain}ValueObject extends BaseValueObject
+{
+    public function __construct()
+    {
+    }
+
+    public function getValue(): mixed
+    {
+        return null;
+    }
+
+    public function toArray(): array
+    {
+        return $this->getValue();
+    }
+
+    protected function toDb(): mixed
+    {
+        return '';
+    }
+
+    protected function fromDb(mixed $value): static
+    {
+        return new static();
+    }
+}

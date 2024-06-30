@@ -1,0 +1,10 @@
+<?php
+
+namespace {namespace};
+
+class {domain}Middleware
+{
+    public function handle()
+    {
+    }
+}

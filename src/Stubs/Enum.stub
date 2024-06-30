@@ -1,0 +1,12 @@
+<?php
+
+namespace {namespace};
+
+use App\Domain\Shared\Enums\BaseEnum;
+
+/**
+ */
+class {domain}Enum extends BaseEnum
+{
+    public const EnumValue = 'Enum Value';
+}

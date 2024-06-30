@@ -1,0 +1,17 @@
+<?php
+
+namespace {namespace};
+
+use App\Domain\Shared\Handlers\BaseHandler;
+use App\Domain\Shared\Requests\BaseRequest;
+
+class {domain}Handler extends BaseHandler
+{
+    public function __construct()
+    {
+    }
+
+    public function __invoke(BaseRequest $request): void
+    {
+    }
+}

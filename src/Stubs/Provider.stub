@@ -1,0 +1,15 @@
+<?php
+
+namespace {namespace};
+
+use Illuminate\Support\ServiceProvider;
+
+class {domain}Provider extends ServiceProvider
+{
+    protected array $listen = [
+    ];
+
+    public function boot()
+    {
+    }
+}

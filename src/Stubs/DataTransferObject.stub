@@ -1,0 +1,18 @@
+<?php
+
+namespace {namespace};
+
+use App\Domain\Shared\DataTransferObjects\BaseDataTransferObject;
+
+class {domain}DataTransferObject extends BaseDataTransferObject
+{
+    public function __construct()
+    {
+    }
+
+    public function toArray(): array
+    {
+        return [
+        ];
+    }
+}

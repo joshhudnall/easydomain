@@ -1,0 +1,9 @@
+<?php
+
+namespace {namespace};
+
+use App\Domain\Shared\Models\BaseModel;
+
+class {domain}Model extends BaseModel
+{
+}

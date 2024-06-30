@@ -1,0 +1,16 @@
+<?php
+
+namespace {namespace};
+
+use App\Domain\Shared\Adapters\BaseAdapter;
+
+class {domain}Adapter extends BaseAdapter
+{
+    public function __construct()
+    {
+    }
+
+    public function send(): void
+    {
+    }
+}

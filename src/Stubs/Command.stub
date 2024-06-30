@@ -1,0 +1,16 @@
+<?php
+
+namespace {namespace};
+
+use Illuminate\Console\Command;
+use Illuminate\Contracts\Console\Isolatable;
+
+class {domain}Command extends Command implements Isolatable
+{
+    protected string $signature = 'domain:create';
+    protected string $description = 'Create a domain';
+
+    public function handle(): void
+    {
+    }
+}

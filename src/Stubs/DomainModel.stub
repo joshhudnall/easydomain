@@ -1,0 +1,10 @@
+<?php
+
+namespace {namespace};
+
+class {domain}DomainModel
+{
+    public function __construct()
+    {
+    }
+}

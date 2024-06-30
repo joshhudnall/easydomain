@@ -1,0 +1,16 @@
+<?php
+
+namespace {namespace};
+
+class {domain}Validator
+{
+    public function validate($attribute, $value, $parameters, $validator): bool
+    {
+        return true;
+    }
+
+    public function replace($message, $attribute, $rule, $parameters): string
+    {
+        return "The {$attribute} field is missing.";
+    }
+}

@@ -1,0 +1,15 @@
+<?php
+
+namespace {namespace};
+
+use App\Domain\Shared\Exceptions\BaseException;
+
+/**
+ */
+class {domain}Exception extends BaseException
+{
+    public function __construct(?string $message = null)
+    {
+        parent::__construct($message);
+    }
+}

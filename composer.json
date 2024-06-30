@@ -1,0 +1,40 @@
+{
+    "name": "joshhudnall/easy-domain",
+    "version": "0",
+    "description": "A CLI command to easily create domains and stubs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Josh Hudnall",
+            "email": "josh@wearesupermagical.com",
+            "homepage": "https://joshhudnall.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JoshHudnall\\EasyDomain\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^v10.48.14|^v11.13.0",
+        "laravel/framework": "^v10.48.14|^v11.13.0",
+        "laravel/prompts": "^0.1.24"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoshHudnall\\EasyDomain\\Providers\\EasyDomainServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}

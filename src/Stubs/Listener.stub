@@ -1,0 +1,10 @@
+<?php
+
+namespace {namespace};
+
+class {domain}Listener
+{
+    public function handle()
+    {
+    }
+}
