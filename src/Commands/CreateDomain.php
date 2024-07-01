@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 use Illuminate\Contracts\Console\Isolatable;
 use Illuminate\Support\Str;
 use JoshHudnall\EasyDomain\Enums\DomainComponent;
-use function Laravel\Prompts\multiselect;
+//use function Laravel\Prompts\multiselect;
 
 // keep
 
@@ -44,11 +44,19 @@ class CreateDomain extends Command implements Isolatable
 
         $domainComponents = array_column(DomainComponent::cases(), 'value');
 
-        $stubs = multiselect(
-            'What stubs should be created?',
+        // Can't use multiselect until Laravel 10
+//        $stubs = multiselect(
+//            'What stubs should be created?',
+//            ['All', ...$domainComponents],
+//            [],
+//            count($domainComponents) + 1,
+//        );
+        $stubs = $this->choice(
+            'Which domain components do you want to create? (Enter a comma separated list)',
             ['All', ...$domainComponents],
-            [],
-            count($domainComponents) + 1,
+            null,
+            null,
+            true,
         );
 
         if (in_array('All', $stubs)) {

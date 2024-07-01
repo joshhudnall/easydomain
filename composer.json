@@ -19,8 +19,10 @@
     },
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^v10.48.14|^v11.13.0",
-        "laravel/framework": "^v10.48.14|^v11.13.0",
+        "illuminate/support": "^v11.13.0|^v10.48.14|^9.2",
+        "laravel/framework": "^v11.13.0|^v10.48.14|^9.2",
+    },
+    "require-disabled": {
         "laravel/prompts": "^0.1.24"
     },
     "extra": {
