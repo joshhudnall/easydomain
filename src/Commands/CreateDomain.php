@@ -70,7 +70,7 @@ class CreateDomain extends Command implements Isolatable
 
     private function createStub(DomainComponent $domainComponent, string $path, string $namespace): void
     {
-        $stubFile = app_path('DomainStubs') . '/' . $domainComponent->value . '.stub';
+        $stubFile = resource_path('DomainStubs') . '/' . $domainComponent->value . '.stub';
         if (!file_exists($stubFile)) {
             $stubFile = __DIR__ . '/../Stubs/' . $domainComponent->value . '.stub';
         }

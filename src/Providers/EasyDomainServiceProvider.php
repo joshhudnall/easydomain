@@ -22,7 +22,7 @@ class EasyDomainServiceProvider extends ServiceProvider
         ], 'easydomain-config');
 
         $this->publishes([
-            __DIR__.'/../Stubs' => app_path('DomainStubs'),
+            __DIR__.'/../Stubs' => resource_path('DomainStubs'),
         ], 'easydomain-stubs');
     }
 
