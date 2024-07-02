@@ -30,7 +30,7 @@ class EasyDomainServiceProvider extends ServiceProvider
     {
         parent::register();
             $this->mergeConfigFrom(
-            __DIR__.'/../config/easydomain.php', 'easydomain'
+            __DIR__.'/../Config/easydomain.php', 'easydomain'
         );
     }
 }
