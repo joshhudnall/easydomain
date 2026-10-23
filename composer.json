@@ -1,6 +1,6 @@
 {
     "name": "joshhudnall/easy-domain",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A CLI command to easily create domains and stubs.",
     "type": "library",
     "license": "MIT",
@@ -19,8 +19,8 @@
     },
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^v11.13.0|^v10.48.14|^9.2",
-        "laravel/framework": "^v11.13.0|^v10.48.14|^9.2"
+        "illuminate/support": "^9.2|^10.48.14|^11.13.0|^12.0",
+        "laravel/framework": "^9.2|^10.48.14|^11.13.0|^12.0"
     },
     "require-disabled": {
         "laravel/prompts": "^0.1.24"
